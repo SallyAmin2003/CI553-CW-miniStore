@@ -28,6 +28,15 @@ public class CustomerController
   {
     model.doCheck(pn);
   }
+  
+  public void doCheckByName( String name )
+  {
+	  NameToNumber nameToNumber = new NameToNumber();
+	  String pn = nameToNumber.getNumberByName(nameToNumber, name);
+	  model.doCheck(pn);
+  }
+ 
+  
 
   /**
    * Clear interaction from view

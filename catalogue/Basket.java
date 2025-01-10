@@ -13,9 +13,9 @@ import java.util.Locale;
  * @version 2.2
  *
  */
-public class Basket extends ArrayList<Product> implements Serializable
+public class Basket extends ArrayList<Product> 
 {
-  private static final long serialVersionUID = 1;
+  //private static final long serialVersionUID = 1;
   private int    theOrderNum = 0;          // Order number
   
   /**
@@ -45,7 +45,7 @@ public class Basket extends ArrayList<Product> implements Serializable
   {
     return theOrderNum;
   }
-  
+
   /**
    * Add a product to the Basket.
    * Product is appended to the end of the existing products

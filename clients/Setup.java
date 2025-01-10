@@ -61,7 +61,6 @@ class Setup
 
   "select * from StockTable, ProductTable " +
           " where StockTable.productNo = ProductTable.productNo"
-
  };
 
   public static void main(String[] args)
